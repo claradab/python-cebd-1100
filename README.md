@@ -1,9 +1,9 @@
-##This package allows you to:
+## This package allows you to:
 1. Create a scatterplot 
 2. Plot the distribution of your data
 3. Group or cluster samples in your data
 
-###1. Creating a scatterplot:
+### 1. Creating a scatterplot:
 
 To create a scatterplot, you have to run the **scattergraph** function from the **plotting.py** file, which takes the following arguments:
 1.  x: this is the column that you want to plot on your x-axis. This should be a numpy array.
@@ -18,13 +18,13 @@ To create a scatterplot, you have to run the **scattergraph** function from the 
 __Note: this argument will default to size if any other string is passed__
 7. outlier_sensitivity: this is a multiplier in a customized IQR calculation, which ultiamately generates a sub-array of outliers. This should be a float (recommended between 0 and 2). If outlier_sensitivity is zero, then your outliers are in the 1st and 4th quartile of your data. The higher the outlier_sensitivity, the fewer the outliers.
 
-###2. Plotting your distributions:
+### 2. Plotting your distributions:
 To plot your distribution, you have to run the **plotdistribution** function from the **plotting.py** file, which takes the following arguments:
 1. y: this is the column that has your target data. This should be a numpy array.
-2. number of bins: choose the number of bins for the histogram. The larger the data set, the more likely you’ll want a large number of bins. This should be an int.
+2. number of bins: choose the number of bins for the histogram. The larger the data set, the more likely youâ€™ll want a large number of bins. This should be an int.
 3: plottitle: this will be the title of your graph. This should be a string.
 
-###3. Grouping/creating clusters:
+### 3. Grouping/creating clusters:
 To create clusters, you have to run the **create_clusters** function from the **clustering.py** file, which takes the following arguments:
 1. x: the column that you want to use as a basis for clustering. This should be a numpy array.
 2. y: this is the column that has your target data. This should be a numpy array.
