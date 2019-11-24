@@ -12,9 +12,9 @@ To create a scatterplot, you have to run the **scattergraph** function from the 
 4.  ytitle: this will be the title of your y-axis. This should be a string.
 5.  graphtitle: this will be the title of your graph. This should be a string.
 6.  outlier_treatment: this tells the graph how to visually differentiate outliers on your plot. You can choose one of the below options. _Note: this argument will default to size if any other string is passed_. This should be a string.
-	a. "color": plots the outliers in a different color
-	b. "shape": plots the outliers with a different marker
-	c. "size": plots the outliers with a different size. 
+a.  "color": plots the outliers in a different color
+b.  "shape": plots the outliers with a different marker
+c.  "size": plots the outliers with a different size. 
 7. outlier_sensitivity: this is a multiplier in a customized IQR calculation, which ultiamately generates a sub-array of outliers. This should be a float (recommended between 0 and 2). If outlier_sensitivity is zero, then your outliers are in the 1st and 4th quartile of your data. The higher the outlier_sensitivity, the fewer the outliers.
 
 ### 2. Plotting your distributions:
