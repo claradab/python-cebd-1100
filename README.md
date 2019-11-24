@@ -15,7 +15,7 @@ To create a scatterplot, you have to run the **scattergraph** function from the 
 	a. "color": plots the outliers in a different color
 	b. "shape": plots the outliers with a different marker
 	c. "size": plots the outliers with a different size
-__Note: this argument will default to size if any other string is passed__
+_Note: this argument will default to size if any other string is passed_
 7. outlier_sensitivity: this is a multiplier in a customized IQR calculation, which ultiamately generates a sub-array of outliers. This should be a float (recommended between 0 and 2). If outlier_sensitivity is zero, then your outliers are in the 1st and 4th quartile of your data. The higher the outlier_sensitivity, the fewer the outliers.
 
 ### 2. Plotting your distributions:
